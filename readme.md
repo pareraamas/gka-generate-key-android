@@ -108,10 +108,10 @@ If you don't specify a file, it will look for `file-gka.yaml` in the current dir
 
 You can download the compiled binaries for your platform directly from the `build/` folder:
 
-- 🍎 **macOS (Intel)**: [gka_darwin_amd64](build/gka_darwin_amd64) `3.5 MB`
-- 🍎 **macOS (Apple Silicon)**: [gka_darwin_arm64](build/gka_darwin_arm64) `3.4 MB`
-- 🐧 **Linux (amd64)**: [gka_linux_amd64](build/gka_linux_amd64) `3.5 MB`
-- 🪟 **Windows (amd64)**: [gka_windows_amd64.exe](build/gka_windows_amd64.exe) `3.6 MB`
+- 🍎 **macOS (Intel)**: <a href="https://github.com/pareraamas/gka-generate-key-android/raw/main/build/gka_darwin_amd64" download>gka_darwin_amd64</a> `3.5 MB`
+- 🍎 **macOS (Apple Silicon)**: <a href="https://github.com/pareraamas/gka-generate-key-android/raw/main/build/gka_darwin_arm64" download>gka_darwin_arm64</a> `3.4 MB`
+- 🐧 **Linux (amd64)**: <a href="https://github.com/pareraamas/gka-generate-key-android/raw/main/build/gka_linux_amd64" download>gka_linux_amd64</a> `3.5 MB`
+- 🪟 **Windows (amd64)**: <a href="https://github.com/pareraamas/gka-generate-key-android/raw/main/build/gka_windows_amd64.exe" download>gka_windows_amd64.exe</a> `3.6 MB`
 
 ---
 
