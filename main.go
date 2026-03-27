@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 )
 
 func main() {
@@ -36,7 +37,15 @@ func main() {
 	}
 
 	fmt.Println("Cleaning up existing files...")
-	os.RemoveAll("android") // Start fresh
+	os.Remove("android/key.properties")
+	jksFiles, _ := filepath.Glob("android/app/*.jks")
+	for _, f := range jksFiles {
+		os.Remove(f)
+	}
+	keystoreFiles, _ := filepath.Glob("android/app/*.keystore")
+	for _, f := range keystoreFiles {
+		os.Remove(f)
+	}
 
 	fmt.Println("Creating directories...")
 	err := os.MkdirAll("android/app", 0755)
