@@ -1,0 +1,16 @@
+# GKA Configuration Template (YAML)
+# Complete the details below to generate your Android Keystore
+
+# Key alias (e.g., upload)
+alias: upload
+
+# Password for both keystore and key
+password: supersecret
+
+# Distinguished Name details
+cn: John Doe          # Common Name (Full Name)
+ou: Android           # Organizational Unit
+o: MyCompany          # Organization
+l: Jakarta            # Locality (City)
+st: DKI Jakarta       # State or Province
+c: ID                 # Country Code (e.g., ID, US)
